@@ -1,0 +1,11 @@
+a=1
+b=1
+n=1
+print(a,end=" ")
+print(b,end=" ")
+while(n<=10):
+    c=a+b
+    print(c, end=" ")
+    b=a
+    a=c
+    n+=1
