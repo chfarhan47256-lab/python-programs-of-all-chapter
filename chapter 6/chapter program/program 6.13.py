@@ -1,0 +1,5 @@
+ch = input("Enter sentance:")
+char = len(ch.replace(" ", ""))
+print("Total character = ",char)
+words= ch.split()
+print("Total words =",len(words))
