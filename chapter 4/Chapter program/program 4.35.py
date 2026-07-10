@@ -1,0 +1,6 @@
+p1=float(input("Enter crunt rate of Petrole:"))
+g1=float(input("Enter crunt rate of Gas:"))
+e1=float(input("Enter crunt rate of Electricity:"))
+print("New rate of petrol is = ",p1*1.1)
+print("New rate of Gas is = ",g1*1.1)
+print("New rate of Electricity is = ",f"{e1*1.1:.3}")

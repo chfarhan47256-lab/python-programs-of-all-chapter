@@ -1,0 +1,9 @@
+num=int(input("Enter five difit number:"))
+sum=num%10
+num=num/10
+sum=sum+num%10
+num=num/10
+sum=sum+num%10
+num=num/10
+sum=sum+num%10
+print("sum of these five digits =",int(sum))

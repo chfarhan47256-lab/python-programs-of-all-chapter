@@ -1,0 +1,5 @@
+ch=input("Enter any letter:")
+ch=chr(ord(ch)+1)
+print(ch)
+ch=chr(ord(ch)+1)
+print(ch)

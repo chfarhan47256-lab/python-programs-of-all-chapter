@@ -1,0 +1,8 @@
+t =float(input("Enter Tptal marks:"))
+s1 =float(input("Enter marks in 1st subject:"))
+s2 =float(input("Enter marks in 2nd subject:"))
+s3 =float(input("Enter marks in 3rd subject:"))
+s4 =float(input("Enter marks in 4th subject:"))
+s5 =float(input("Enter marks in 5th subject:"))
+print("Total obtained marks ",s1+s2+s3+s4+s5)
+print("Percentage = ",(s1+s2+s3+s4+s5)/5)

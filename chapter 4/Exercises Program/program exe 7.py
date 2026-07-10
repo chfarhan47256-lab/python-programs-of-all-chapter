@@ -1,0 +1,5 @@
+tpage=int(input("Enter total page of book:"))
+prpoday=int(input("Enter no of page person read in one day:"))
+noday=int(input("Enter no of days person read book:"))
+print("No of page person read = ",prpoday*noday)
+print("No of remaning page = ",tpage-prpoday*noday)
