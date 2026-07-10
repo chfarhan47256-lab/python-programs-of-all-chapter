@@ -1,0 +1,1 @@
+ch = int(input("Enter 1 for Fahrenheit to Centigrade"))
