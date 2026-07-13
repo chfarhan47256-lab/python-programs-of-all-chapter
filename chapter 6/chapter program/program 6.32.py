@@ -1,0 +1,9 @@
+x=int(input("Enter value of x:"))
+p=int(input("Enter power of x:"))
+sum=0
+n=0
+while(n<=p):
+    power=x**n
+    sum=sum+(1/power)
+    n+=1
+print("Sum = ",sum)
